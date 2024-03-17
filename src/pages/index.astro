@@ -1,0 +1,49 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Navbar from "../components/Navo.astro";
+---
+
+<Layout title="arctree">
+	<Navbar />
+	<div class="banner">
+		<img src="/images/banner.png" class="hero" alt="" />
+	</div>
+	<div class="cont flex justify-center items-center bg-black">
+		<div
+			class="div h-10 w-44 flex justify-center items-center rounded-full mx-4 border border-1 text-white border-white"
+		>
+			<a href="">Name</a>
+		</div>
+		<div
+			class="div h-10 w-44 flex justify-center items-center rounded-full mx-4 border border-1 text-white border-white"
+		>
+			<a href="">Phone</a>
+		</div>
+		<div><h1 class="text-white">Lets Thrive In The Light</h1></div>
+		<div
+			class="div h-10 w-44 flex justify-center items-center rounded-full mx-4 border border-1 text-white border-white"
+		>
+			<a href="">Email</a>
+		</div>
+		<div
+			class="div h-10 w-32 text-2xl bg-yellow-500 flex justify-center items-center rounded-full ml-24 border text-white border-white"
+		>
+			<a href=""> Start</a>
+		</div>
+	</div>
+</Layout>
+
+<style>
+	.banner {
+		height: 500px;
+
+		width: 100vew;
+	}
+	.hero {
+		height: 100%;
+		width: 100%;
+	}
+	.cont {
+		min-height: 80px;
+	}
+</style>
